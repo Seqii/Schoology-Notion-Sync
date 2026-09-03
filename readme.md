@@ -14,7 +14,7 @@ Class | Select (will automatically create select options based on schoology)
 Due	| Date
 URL	| URL (link to schoology assigment)
 Description	| Text
-Status	| Status (creates page as not started)
+Status	| Status (defaults as as not started)
 ---
 
 ## Setup
