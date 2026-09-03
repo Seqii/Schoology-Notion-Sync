@@ -28,22 +28,31 @@ Status	| Status (creates page as not started)
 
 You will need the following variables:
 
-```py
-# https://www.app.schoology.com/api/
+
+
+```
 SCHOOLOGY_KEY=
 SCHOOLOGY_SECRET=
+```
+You can get these at https://www.app.schoology.com/api/
 
+
+```py
 SCHOOLOGY_TIMEZONE=     #eg. America/Chicago
 
-# https://app.notion.com/developers/tokens/
 NOTION_TOKEN=
+```
+https://app.notion.com/developers/tokens/
 
-#Open your database in full page then get the id from the link (its the 32 characters after /p/ and before the question mark)
+```
 NOTION_DATABASE_ID=
-
-# You can leave this blank, the script discovers this from NOTION_DATABASE_ID automatically.
+```
+Open your database in full page then get the id from the link (its the 32 characters after /p/ and before the question mark)
+```
 NOTION_DATA_SOURCE_ID=
 ```
+You can leave this blank, the script discovers this from NOTION_DATABASE_ID automatically.
+
 
 ## Structure
 ```
