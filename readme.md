@@ -18,13 +18,17 @@ Status	| Status (defaults as as not started)
 ---
 
 ## Setup
-### 1.  Install dependencies:
+### 1. Clone the repo
+```
+git clone https://github.com/Seqii/Schoology-Notion-Sync
+```
+### 2.  Install dependencies:
 
 - python3 -m venv .venv
 - source .venv/bin/activate
 - pip install -r requirements.txt
 
-### 2. Create .env:
+### 3. Create .env:
 
 You will need the following variables:
 
@@ -52,6 +56,8 @@ Open your database in full page then get the id from the link (its the 32 charac
 NOTION_DATA_SOURCE_ID=
 ```
 You can leave this blank, the script discovers this from NOTION_DATABASE_ID automatically.
+
+### 4. Run main.py
 
 
 ## Structure
